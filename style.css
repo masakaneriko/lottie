@@ -1,0 +1,35 @@
+#lottie-container {
+  stroke: red;
+  /* width: 20vh;
+  height: 20vh; */
+  animation: rotate 2s linear infinite;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0)
+  }
+  to {
+    transform: rotate(360deg)
+  }
+}
+
+
+body {
+  position: relative;
+  height: 50vh;
+}
+
+.lotties {
+  width: 20vh;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#particlosion {
+  position: absolute;
+  background: url('particle_explosion.json');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
